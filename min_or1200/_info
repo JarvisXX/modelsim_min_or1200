@@ -1,0 +1,1585 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jarvis/modelsim/proj_min_or1200
+vor1200_alu
+Z1 !s110 1555142740
+!i10b 1
+!s100 Z5`EoU^`OmkJWKakG17an0
+I<T>82H=Fj@[SjhGZ=MS8M0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1554692868
+8/home/jarvis/modelsim/proj_min_or1200/or1200_alu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_alu.v
+Z4 L0 54
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1555142740.000000
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_alu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_alu.v|
+!i113 1
+Z7 o-work min_or1200
+Z8 tCvgOpt 0
+vor1200_cfgr
+R1
+!i10b 1
+!s100 dEbl;XLQa_GR;o;ba31SB2
+IlehcoHPmmMnGFXjESi]5W2
+R2
+R0
+Z9 w1554692869
+8/home/jarvis/modelsim/proj_min_or1200/or1200_cfgr.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_cfgr.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_cfgr.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_cfgr.v|
+!i113 1
+R7
+R8
+vor1200_cpu
+R1
+!i10b 1
+!s100 mOBjaYL0Z>dRjc`OeI1ec1
+IgGm>o3@[7Kfdgh4SYe@nW2
+R2
+R0
+R3
+8/home/jarvis/modelsim/proj_min_or1200/or1200_cpu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_cpu.v
+Z10 L0 55
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_cpu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_cpu.v|
+!i113 1
+R7
+R8
+vor1200_ctrl
+R1
+!i10b 1
+!s100 SKFhk?=lSURR11eiZQT]M3
+Ihmk=kCD[4b4o]L8]Q5G8o3
+R2
+R0
+Z11 w1554692870
+8/home/jarvis/modelsim/proj_min_or1200/or1200_ctrl.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_ctrl.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_ctrl.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_ctrl.v|
+!i113 1
+R7
+R8
+vor1200_dc_fsm
+R1
+!i10b 1
+!s100 FT@@zaDFAb:69jKSG0OGG3
+I4R986AH1TXbih_IQ4:nHK3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dc_fsm.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dc_fsm.v
+L0 71
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_fsm.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_fsm.v|
+!i113 1
+R7
+R8
+vor1200_dc_ram
+R1
+!i10b 1
+!s100 T`Yj7LUnL:E4dcDZ<]g?L3
+IiFB=gbR]lb3A4_Z>nIH123
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dc_ram.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dc_ram.v
+Z12 L0 56
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_ram.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_ram.v|
+!i113 1
+R7
+R8
+vor1200_dc_tag
+R1
+!i10b 1
+!s100 Tbd9CHPE=UFVCWhHAQQdH1
+IP[NA<M7HJ9oJ;5MkL><2;3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dc_tag.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dc_tag.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_tag.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_tag.v|
+!i113 1
+R7
+R8
+vor1200_dc_top
+R1
+!i10b 1
+!s100 5_HYchaoP59I]33Y[@j:T0
+Ie6PK^`>j127ESAh2CS[mb2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dc_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dc_top.v
+Z13 L0 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dc_top.v|
+!i113 1
+R7
+R8
+vor1200_dmmu_tlb
+R1
+!i10b 1
+!s100 gQZXbFTEBoY?[79=PIg8;1
+IXb8R:JZ7Ib5fkHWAd>64b1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_tlb.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_tlb.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_tlb.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_tlb.v|
+!i113 1
+R7
+R8
+vor1200_dmmu_top
+R1
+!i10b 1
+!s100 3WXjDliz5XIVbRXUbhJJ50
+IS51f0XCQhUbCaYd5BX>om3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_top.v
+Z14 L0 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dmmu_top.v|
+!i113 1
+R7
+R8
+vor1200_dpram
+Z15 !s110 1555142741
+!i10b 1
+!s100 d3U[HXjz5;1j9]ATaNIbj0
+IcT;Ho_aIKNeJ0:lSc]U5m3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dpram.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dpram.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram.v|
+!i113 1
+R7
+R8
+vor1200_dpram_256x32
+R15
+!i10b 1
+!s100 Cf[Sn2I5b8f^NK@jXhWaB2
+In2>4=Z>K[W]4@HagOOPf;0
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_256x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_256x32.v
+L0 70
+R5
+r1
+!s85 0
+31
+Z16 !s108 1555142741.000000
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_256x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_256x32.v|
+!i113 1
+R7
+R8
+vor1200_dpram_32x32
+R15
+!i10b 1
+!s100 X_9<nRSJBl=DUFLfoja3=2
+If:9>6z;Ej]zHeF`J?=ml<1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_32x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_32x32.v
+L0 134
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_32x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_dpram_32x32.v|
+!i113 1
+R7
+R8
+vor1200_du
+R15
+!i10b 1
+!s100 1G;HL5`4Il7gSUHKi1=;h0
+IPlB>[Vm4coi3>=6QDKmme1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_du.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_du.v
+R14
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_du.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_du.v|
+!i113 1
+R7
+R8
+vor1200_except
+R15
+!i10b 1
+!s100 dd5Ng7N2zjN7N;7fM3:oz3
+I?N;VJ`:7iiS5]5BSMSjjF1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_except.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_except.v
+Z17 L0 67
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_except.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_except.v|
+!i113 1
+R7
+R8
+vor1200_fpu
+R15
+!i10b 1
+!s100 XKeZdn^DfoMdzY8U^M;dM2
+IN`]YaV38K24I=2d;b5E0F1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu.v
+L0 51
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu.v|
+!i113 1
+R7
+R8
+vor1200_fpu_addsub
+R15
+!i10b 1
+!s100 c8i8=?V;V89=34V[Q?44z0
+I4@hL7VUhMJoIXG<>VYzhD0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_addsub.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_addsub.v
+Z18 L0 45
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_addsub.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_addsub.v|
+!i113 1
+R7
+R8
+vor1200_fpu_arith
+R15
+!i10b 1
+!s100 `ooG?AS;02>WV;FCYo>]C2
+I?D0:;X1GMbN4WYCzV55i:3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_arith.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_arith.v
+Z19 L0 44
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_arith.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_arith.v|
+!i113 1
+R7
+R8
+vor1200_fpu_div
+R15
+!i10b 1
+!s100 8bWiDikGJ=S]adZZVV<eU1
+I[bGzNaD`10:5cddn6l?680
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_div.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_div.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_div.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_div.v|
+!i113 1
+R7
+R8
+vor1200_fpu_fcmp
+R15
+!i10b 1
+!s100 TmLM7ZXGJdzjDm><gVS621
+Iae<WS6WeJBD?JKA1RUERn0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_fcmp.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_fcmp.v
+L0 38
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_fcmp.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_fcmp.v|
+!i113 1
+R7
+R8
+vor1200_fpu_intfloat_conv
+R15
+!i10b 1
+!s100 mo:]0A0A3]WT=0T<YfngM3
+IV9IPYO@VJ^]XGSJ_F`MCK0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv.v
+L0 68
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv.v|
+!i113 1
+R7
+R8
+vor1200_fpu_intfloat_conv_except
+R15
+!i10b 1
+!s100 j0mNQV:z@>Z3Ie3881moF0
+IQ72]@SEPC1oiHNBSz_kRk2
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv_except.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv_except.v
+Z20 L0 40
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv_except.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_intfloat_conv_except.v|
+!i113 1
+R7
+R8
+vor1200_fpu_mul
+R15
+!i10b 1
+!s100 XhO8:5BODYJjYM0OS>lLi1
+Io[5mV[jAJXZGoh9[ZkDRA3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_mul.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_mul.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_mul.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_mul.v|
+!i113 1
+R7
+R8
+vor1200_fpu_post_norm_addsub
+R15
+!i10b 1
+!s100 0N`zAbkl:4Lm^4c67LMbT2
+IWLG1H1=9OjiJ3cW^SM4C12
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_addsub.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_addsub.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_addsub.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_addsub.v|
+!i113 1
+R7
+R8
+vor1200_fpu_post_norm_div
+R15
+!i10b 1
+!s100 S6Ngc@PeEm6Ce4O_baTXY1
+IGmB<E<@=o2A^2jWANMj2P3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_div.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_div.v
+R18
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_div.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_div.v|
+!i113 1
+R7
+R8
+vor1200_fpu_post_norm_intfloat_conv
+R15
+!i10b 1
+!s100 XIaSCB^9kIVzO5IZ?dkZ[1
+INJ3ak8k]f=>1MOE]B;VVV1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_intfloat_conv.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_intfloat_conv.v
+R20
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_intfloat_conv.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_intfloat_conv.v|
+!i113 1
+R7
+R8
+vor1200_fpu_post_norm_mul
+R15
+!i10b 1
+!s100 o4S_WK5S3RQS<S]7``>031
+I`P=D>R7MmMn30`7C6ljzh0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_mul.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_mul.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_mul.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_post_norm_mul.v|
+!i113 1
+R7
+R8
+vor1200_fpu_pre_norm_addsub
+R15
+!i10b 1
+!s100 MLS<F<ihELTAAOXmDP;LR2
+Iz=6F949]fXUHT_b<Ln3PW2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_addsub.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_addsub.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_addsub.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_addsub.v|
+!i113 1
+R7
+R8
+vor1200_fpu_pre_norm_div
+R15
+!i10b 1
+!s100 H`[H`=89c:YFMlCi6HLLh1
+IWT]cR17:QDO>VUzCj[WPl0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_div.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_div.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_div.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_div.v|
+!i113 1
+R7
+R8
+vor1200_fpu_pre_norm_mul
+R15
+!i10b 1
+!s100 SiUSA[SdmbI@_791F]FS43
+IQW;3e[7YcF_QkObJ^o@bN2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_mul.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_mul.v
+R19
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_mul.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_fpu_pre_norm_mul.v|
+!i113 1
+R7
+R8
+vor1200_freeze
+R15
+!i10b 1
+!s100 5GUaCHCie2XLXeOBzcob30
+I@B59EQXBjZ`D2@fCHLHLc1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_freeze.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_freeze.v
+Z21 L0 64
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_freeze.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_freeze.v|
+!i113 1
+R7
+R8
+vor1200_genpc
+R15
+!i10b 1
+!s100 _9O9i[LbkTV^?kHiRDLe31
+I?@VM_V>68g^TW;?5g`a6V2
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_genpc.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_genpc.v
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_genpc.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_genpc.v|
+!i113 1
+R7
+R8
+vor1200_gmultp2_32x32
+R15
+!i10b 1
+!s100 :1`8YPa9d=aKG3e7];4ne2
+I2chZ`oS1=f^`ne>;`fVfO1
+R2
+R0
+R3
+8/home/jarvis/modelsim/proj_min_or1200/or1200_gmultp2_32x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_gmultp2_32x32.v
+L0 65
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_gmultp2_32x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_gmultp2_32x32.v|
+!i113 1
+R7
+R8
+vor1200_ic_fsm
+R15
+!i10b 1
+!s100 Tb<Sf6a13<N7RSY[5OXe80
+InL7SCkz8C2<cQJ>MASEh73
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_ic_fsm.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_ic_fsm.v
+R21
+R5
+r1
+!s85 0
+31
+R16
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_fsm.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_fsm.v|
+!i113 1
+R7
+R8
+vor1200_ic_ram
+Z22 !s110 1555142742
+!i10b 1
+!s100 :bJ6e;O44A`Hb;a8IVNQR0
+Idj<An@n;25MQmJI7jLQK12
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_ic_ram.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_ic_ram.v
+Z23 L0 57
+R5
+r1
+!s85 0
+31
+Z24 !s108 1555142742.000000
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_ram.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_ram.v|
+!i113 1
+R7
+R8
+vor1200_ic_tag
+R22
+!i10b 1
+!s100 O0<i4=c0hWjEE`?j=lDP51
+IdP4TUH`;W1d3?M;:bzXof3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_ic_tag.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_ic_tag.v
+R23
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_tag.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_tag.v|
+!i113 1
+R7
+R8
+vor1200_ic_top
+R22
+!i10b 1
+!s100 NcXG?<76hUeZ9hCmHgGa?3
+IAJ=2kfI>4`O32aMGF0Q=:0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_ic_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_ic_top.v
+R12
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_ic_top.v|
+!i113 1
+R7
+R8
+vor1200_if
+R22
+!i10b 1
+!s100 ]47F=HFFneKlgQ4b=8;U40
+Ieh4^^^abnmmn=RXBb?5]_3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_if.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_if.v
+R4
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_if.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_if.v|
+!i113 1
+R7
+R8
+vor1200_immu_tlb
+R22
+!i10b 1
+!s100 8^d_F44>7`X:UQFY`YjoU0
+IFUbI2im7oRfLbiYBokd>T0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_immu_tlb.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_immu_tlb.v
+L0 98
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_immu_tlb.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_immu_tlb.v|
+!i113 1
+R7
+R8
+vor1200_immu_top
+R22
+!i10b 1
+!s100 ?B:]gI?20IY2X_^@110im2
+I0X8U^la0S`8Q1:QY>KDRV0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_immu_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_immu_top.v
+Z25 L0 53
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_immu_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_immu_top.v|
+!i113 1
+R7
+R8
+vor1200_iwb_biu
+R22
+!i10b 1
+!s100 RO2B0eE<ci_LWS<<9_hhV1
+I04>DPY^4`dQ7o@WSC;Cm13
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_iwb_biu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_iwb_biu.v
+R13
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_iwb_biu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_iwb_biu.v|
+!i113 1
+R7
+R8
+vor1200_lsu
+R22
+!i10b 1
+!s100 ORRAgDD^zc345K;27n7062
+InZ7ITPFV`UfIPNcW1:K3_3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_lsu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_lsu.v
+R12
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_lsu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_lsu.v|
+!i113 1
+R7
+R8
+vor1200_mem2reg
+R22
+!i10b 1
+!s100 jFk5hYZo=m;eHX;NSJFda3
+IES_55b[GL@UzPDOG8Dj>l1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_mem2reg.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_mem2reg.v
+L0 90
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_mem2reg.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_mem2reg.v|
+!i113 1
+R7
+R8
+vor1200_mult_mac
+R22
+!i10b 1
+!s100 L8^o399WIK30_fXJGf@oJ2
+I@i:gTj02ScO>aIDI8mC7^3
+R2
+R0
+R3
+8/home/jarvis/modelsim/proj_min_or1200/or1200_mult_mac.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_mult_mac.v
+R13
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_mult_mac.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_mult_mac.v|
+!i113 1
+R7
+R8
+vor1200_operandmuxes
+R22
+!i10b 1
+!s100 QbTf^:2<P3dP8RH2nj9=@2
+In9:96THJWD=od1[<hf5Uf3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_operandmuxes.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_operandmuxes.v
+R4
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_operandmuxes.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_operandmuxes.v|
+!i113 1
+R7
+R8
+vor1200_pic
+R22
+!i10b 1
+!s100 >BfaO[Wmb^7CQ5GH3LV2W1
+IGToMEkLkcc7mAMl79L=2;2
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_pic.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_pic.v
+R25
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_pic.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_pic.v|
+!i113 1
+R7
+R8
+vor1200_pm
+R22
+!i10b 1
+!s100 ]Jcz=79;_:Pngi:H;18H53
+Iz6[oLg4g5lObkZXO]fk1A2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_pm.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_pm.v
+L0 75
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_pm.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_pm.v|
+!i113 1
+R7
+R8
+vor1200_qmem_top
+R22
+!i10b 1
+!s100 iSn?G[nHW>9dlW>caQ2C@3
+I:?7[>FJ4^2Ef>J:ZLlU`I0
+R2
+R0
+w1555138276
+8/home/jarvis/modelsim/proj_min_or1200/or1200_qmem_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_qmem_top.v
+L0 87
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_qmem_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_qmem_top.v|
+!i113 1
+R7
+R8
+vor1200_reg2mem
+R22
+!i10b 1
+!s100 B02GH15aQ:<XRZ[Z6P4e91
+I9A<=TIYmYm7D2aTbiGVFM2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_reg2mem.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_reg2mem.v
+L0 81
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_reg2mem.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_reg2mem.v|
+!i113 1
+R7
+R8
+vor1200_rf
+R22
+!i10b 1
+!s100 B>XoUI=EZaj;ESABb1NVo1
+IFkFPW7;41JM5]mUYQ<_7U1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_rf.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_rf.v
+R10
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_rf.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_rf.v|
+!i113 1
+R7
+R8
+vor1200_rfram_generic
+R22
+!i10b 1
+!s100 6:nERL8kBMPAfZd5VU=222
+IAHeVPfS7]Van6TcjX4=jz0
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_rfram_generic.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_rfram_generic.v
+R17
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_rfram_generic.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_rfram_generic.v|
+!i113 1
+R7
+R8
+vor1200_sb
+R22
+!i10b 1
+!s100 kPcfH3ek2FK6dCH]`bEC;3
+I4Yh2Ib`MXSRPSmh<3SVlM3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_sb.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_sb.v
+R10
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_sb.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_sb.v|
+!i113 1
+R7
+R8
+vor1200_sb_fifo
+R22
+!i10b 1
+!s100 AcXkmLVlAeh7P=Vg8VN691
+IW3RhfWA7@CcHBz5M[<?PD0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_sb_fifo.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_sb_fifo.v
+L0 66
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_sb_fifo.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_sb_fifo.v|
+!i113 1
+R7
+R8
+vor1200_spram
+R22
+!i10b 1
+!s100 ATigYLWQPiO_Aj[K06acz1
+Ia^k81ea]C7UNGNPKPQO[42
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram.v
+R13
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram.v|
+!i113 1
+R7
+R8
+vor1200_spram_1024x32
+Z26 !s110 1555142743
+!i10b 1
+!s100 ]8KE>C7<c]N7:9aM:iOg02
+IK:fT4e9:]BKW27?Md1Y3:2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32.v
+Z27 L0 120
+R5
+r1
+!s85 0
+31
+Z28 !s108 1555142743.000000
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32.v|
+!i113 1
+R7
+R8
+vor1200_spram_1024x32_bw
+R26
+!i10b 1
+!s100 :AKOIX<E?5N34JF^X3ZWO1
+I;Po5IS<dEH:9[L>AmgUCe2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32_bw.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32_bw.v
+L0 89
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32_bw.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x32_bw.v|
+!i113 1
+R7
+R8
+vor1200_spram_1024x8
+R26
+!i10b 1
+!s100 ^?PFW5AE^4_L1k>RO6CWm2
+I5CK7J[9?ZRaGO<J6gbWFM1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x8.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x8.v
+Z29 L0 117
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x8.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_1024x8.v|
+!i113 1
+R7
+R8
+vor1200_spram_128x32
+R26
+!i10b 1
+!s100 90d<^2K?DB3]VSG?O6nMP1
+I=M`1HAMRH0BYJIjPZWkhg0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_128x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_128x32.v
+L0 84
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_128x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_128x32.v|
+!i113 1
+R7
+R8
+vor1200_spram_2048x32
+!s110 1555155909
+!i10b 1
+!s100 S3PdoOz=R`b`jAinO<eAG1
+ICihBJS_DPmTOX>P7k[Ngm2
+R2
+R0
+w1555155905
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1555155909.000000
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v|
+!i113 1
+R7
+R8
+vor1200_spram_2048x32_bw
+R26
+!i10b 1
+!s100 SO511caoX;Y3bFcW[e[A]3
+Ieg1X;VB_b7KKI?FAWDO6k2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32_bw.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32_bw.v
+L0 92
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32_bw.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32_bw.v|
+!i113 1
+R7
+R8
+vor1200_spram_2048x8
+R26
+!i10b 1
+!s100 PPzZI4Q]R5akg:RVVShiI2
+IFl6H^MT7nFd^L17S4KgFN3
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x8.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x8.v
+R29
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x8.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x8.v|
+!i113 1
+R7
+R8
+vor1200_spram_256x21
+R26
+!i10b 1
+!s100 cjdR;DCFe0:8e=^XiHbbM1
+I@AY]bM=7bSMI0>lFbDaDO2
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_256x21.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_256x21.v
+L0 126
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_256x21.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_256x21.v|
+!i113 1
+R7
+R8
+vor1200_spram_32_bw
+R22
+!i10b 1
+!s100 HfV1_I`i]3aD0?ZON3b[b1
+ITzI>=XoO:ULTJ_2WCZ8do1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32_bw.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32_bw.v
+Z30 L0 61
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32_bw.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32_bw.v|
+!i113 1
+R7
+R8
+vor1200_spram_32x24
+R22
+!i10b 1
+!s100 27^3Xo9lU9bbFeAoTWRjE1
+I5=HIb`PfS<8=[;S^]n>JC3
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32x24.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32x24.v
+L0 88
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32x24.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_32x24.v|
+!i113 1
+R7
+R8
+vor1200_spram_512x20
+R26
+!i10b 1
+!s100 WKDa4KZW3dGBXacGgF4b_2
+I]c_6:<8ZPPQcDS<jejE3A1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_512x20.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_512x20.v
+L0 123
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_512x20.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_512x20.v|
+!i113 1
+R7
+R8
+vor1200_spram_64x14
+R22
+!i10b 1
+!s100 J]^;8AWchTL?^MkR6<oGl3
+IRUZR:JbZGM;oN<5Q;0UKo0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x14.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x14.v
+R29
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x14.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x14.v|
+!i113 1
+R7
+R8
+vor1200_spram_64x22
+R26
+!i10b 1
+!s100 _MJ<[DM`9W16a56kJZ:QM3
+Ilb0iU55FaSYT@mD8HK_=K1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x22.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x22.v
+R29
+R5
+r1
+!s85 0
+31
+R24
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x22.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x22.v|
+!i113 1
+R7
+R8
+vor1200_spram_64x24
+R26
+!i10b 1
+!s100 lgEWEEDM_F:>Xa9GB?Lm[2
+IQfXgd?mM@cmdCe?b6L2nQ0
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x24.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x24.v
+R27
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x24.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_spram_64x24.v|
+!i113 1
+R7
+R8
+vor1200_sprs
+R26
+!i10b 1
+!s100 hc[^<:mXVEeboRI_^7`El0
+IOZ17e7<I>UcXL:5RieH[:0
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_sprs.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_sprs.v
+R4
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_sprs.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_sprs.v|
+!i113 1
+R7
+R8
+vor1200_tb
+!s110 1555151839
+!i10b 1
+!s100 ]HIj1;g^aX;Ylk7Y6@7Fl1
+IaM8R]2I3V:j1ORLYY3XVa2
+R2
+R0
+w1555151835
+8/home/jarvis/modelsim/proj_min_or1200/or1200_tb.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_tb.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1555151839.000000
+!s107 /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_tb.v|
+!i113 1
+R7
+R8
+vor1200_top
+R26
+!i10b 1
+!s100 NFIYgaWa6EIiQQQL2SQfQ3
+IE4;c^nV]S1LnUgf7DREo53
+R2
+R0
+w1555138274
+8/home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+R23
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_top.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_top.v|
+!i113 1
+R7
+R8
+vor1200_tpram_32x32
+R26
+!i10b 1
+!s100 @z<bD8]?D5[Y9;UiMoH]F2
+I:56=c[b=?[D:3c21Ek::l1
+R2
+R0
+R9
+8/home/jarvis/modelsim/proj_min_or1200/or1200_tpram_32x32.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_tpram_32x32.v
+L0 110
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_tpram_32x32.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_tpram_32x32.v|
+!i113 1
+R7
+R8
+vor1200_tt
+R26
+!i10b 1
+!s100 =VfaT8D:DA=N^2z@9CbE`3
+IZVfhb57EaC8RRm2LLbg[c0
+R2
+R0
+R3
+8/home/jarvis/modelsim/proj_min_or1200/or1200_tt.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_tt.v
+L0 50
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_tt.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_tt.v|
+!i113 1
+R7
+R8
+vor1200_wb_biu
+R26
+!i10b 1
+!s100 UXkJRO6_InTNE^eDK1<=;1
+IEN><?U4CUhI4BFG54eQ=H0
+R2
+R0
+R3
+8/home/jarvis/modelsim/proj_min_or1200/or1200_wb_biu.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_wb_biu.v
+R30
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_wb_biu.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_wb_biu.v|
+!i113 1
+R7
+R8
+vor1200_wbmux
+R26
+!i10b 1
+!s100 41X0@UN6<i9hD6leW8RUj2
+IC?<J0lSB2S<S9;fUKS6CP1
+R2
+R0
+R11
+8/home/jarvis/modelsim/proj_min_or1200/or1200_wbmux.v
+F/home/jarvis/modelsim/proj_min_or1200/or1200_wbmux.v
+R4
+R5
+r1
+!s85 0
+31
+R28
+!s107 or1200_defines.v|timescale.v|/home/jarvis/modelsim/proj_min_or1200/or1200_wbmux.v|
+!s90 -reportprogress|300|-work|min_or1200|-stats=none|/home/jarvis/modelsim/proj_min_or1200/or1200_wbmux.v|
+!i113 1
+R7
+R8

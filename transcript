@@ -1,0 +1,2174 @@
+# Loading project min_or1200
+vsim min_or1200.or1200_tb -t ns
+# vsim min_or1200.or1200_tb -t ns 
+# Start time: 14:25:58 on Apr 13,2019
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'sig_tick'.
+add wave -position insertpoint  \
+sim:/or1200_tb/CLOCK_50
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/mem
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/di
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/doq
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr_reg
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/clk
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/rst
+# Load canceled
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(16)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 16
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_cpu/or1200_ctrl/ex_insn
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(16)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 16
+add wave -position insertpoint  \
+sim:/or1200_tb/rst
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(16)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 16
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v failed with 1 errors.
+# 79 compiles, 1 failed with 1 error.
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'sig_tick'.
+add wave -position insertpoint  \
+sim:/or1200_tb/CYCLE_num
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(17)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 17
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(17)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 17
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Too few port connections. Expected 55, found 50.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(17)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 17
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v failed with 1 errors.
+# 79 compiles, 1 failed with 1 error.
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 19
+add wave -position insertpoint  \
+sim:/or1200_tb/fault_sig_J
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(28): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 19
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(29): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 19
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v failed with 1 errors.
+# 79 compiles, 1 failed with 1 error.
+# Compile of or1200_tb.v failed with 1 errors.
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 19
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(36): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(19)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 19
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/fault_sig_J
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(41): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_tb.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 1 failed with 1 error.
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+run -all
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/rand_pos
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr_reg_f
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_alu.v was successful.
+# Compile of or1200_amultp2_32x32.v was successful.
+# Compile of or1200_cfgr.v was successful.
+# Compile of or1200_cpu.v was successful.
+# Compile of or1200_ctrl.v was successful.
+# Compile of or1200_dc_fsm.v was successful.
+# Compile of or1200_dc_ram.v was successful.
+# Compile of or1200_dc_tag.v was successful.
+# Compile of or1200_dc_top.v was successful.
+# Compile of or1200_defines.v was successful.
+# Compile of or1200_dmmu_tlb.v was successful.
+# Compile of or1200_dmmu_top.v was successful.
+# Compile of or1200_dpram.v was successful.
+# Compile of or1200_dpram_32x32.v was successful.
+# Compile of or1200_dpram_256x32.v was successful.
+# Compile of or1200_du.v was successful.
+# Compile of or1200_except.v was successful.
+# Compile of or1200_fpu.v was successful.
+# Compile of or1200_fpu_addsub.v was successful.
+# Compile of or1200_fpu_arith.v was successful.
+# Compile of or1200_fpu_div.v was successful.
+# Compile of or1200_fpu_fcmp.v was successful.
+# Compile of or1200_fpu_intfloat_conv.v was successful.
+# Compile of or1200_fpu_intfloat_conv_except.v was successful.
+# Compile of or1200_fpu_mul.v was successful.
+# Compile of or1200_fpu_post_norm_addsub.v was successful.
+# Compile of or1200_fpu_post_norm_div.v was successful.
+# Compile of or1200_fpu_post_norm_intfloat_conv.v was successful.
+# Compile of or1200_fpu_post_norm_mul.v was successful.
+# Compile of or1200_fpu_pre_norm_addsub.v was successful.
+# Compile of or1200_fpu_pre_norm_div.v was successful.
+# Compile of or1200_fpu_pre_norm_mul.v was successful.
+# Compile of or1200_freeze.v was successful.
+# Compile of or1200_genpc.v was successful.
+# Compile of or1200_gmultp2_32x32.v was successful.
+# Compile of or1200_ic_fsm.v was successful.
+# Compile of or1200_ic_ram.v was successful.
+# Compile of or1200_ic_tag.v was successful.
+# Compile of or1200_ic_top.v was successful.
+# Compile of or1200_if.v was successful.
+# Compile of or1200_immu_tlb.v was successful.
+# Compile of or1200_immu_top.v was successful.
+# Compile of or1200_iwb_biu.v was successful.
+# Compile of or1200_lsu.v was successful.
+# Compile of or1200_mem2reg.v was successful.
+# Compile of or1200_mult_mac.v was successful.
+# Compile of or1200_operandmuxes.v was successful.
+# Compile of or1200_pic.v was successful.
+# Compile of or1200_pm.v was successful.
+# Compile of or1200_qmem_top.v was successful.
+# Compile of or1200_reg2mem.v was successful.
+# Compile of or1200_rf.v was successful.
+# Compile of or1200_rfram_generic.v was successful.
+# Compile of or1200_sb.v was successful.
+# Compile of or1200_sb_fifo.v was successful.
+# Compile of or1200_spram.v was successful.
+# Compile of or1200_spram_32_bw.v was successful.
+# Compile of or1200_spram_32x24.v was successful.
+# Compile of or1200_spram_64x14.v was successful.
+# Compile of or1200_spram_64x22.v was successful.
+# Compile of or1200_spram_64x24.v was successful.
+# Compile of or1200_spram_128x32.v was successful.
+# Compile of or1200_spram_256x21.v was successful.
+# Compile of or1200_spram_512x20.v was successful.
+# Compile of or1200_spram_1024x8.v was successful.
+# Compile of or1200_spram_1024x32.v was successful.
+# Compile of or1200_spram_1024x32_bw.v was successful.
+# Compile of or1200_spram_2048x8.v was successful.
+# Compile of or1200_spram_2048x32.v was successful.
+# Compile of or1200_spram_2048x32_bw.v was successful.
+# Compile of or1200_sprs.v was successful.
+# Compile of or1200_top.v was successful.
+# Compile of or1200_tpram_32x32.v was successful.
+# Compile of or1200_tt.v was successful.
+# Compile of or1200_wb_biu.v was successful.
+# Compile of or1200_wbmux.v was successful.
+# Compile of or1200_xcv_ram32x8d.v was successful.
+# Compile of timescale.v was successful.
+# Compile of or1200_tb.v was successful.
+# 79 compiles, 0 failed with no errors.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_top
+# Loading min_or1200.or1200_wb_biu
+# Loading min_or1200.or1200_immu_top
+# Loading min_or1200.or1200_immu_tlb
+# Loading min_or1200.or1200_spram
+# Loading min_or1200.or1200_ic_top
+# Loading min_or1200.or1200_ic_fsm
+# Loading min_or1200.or1200_ic_ram
+# Loading min_or1200.or1200_ic_tag
+# Loading min_or1200.or1200_cpu
+# Loading min_or1200.or1200_genpc
+# Loading min_or1200.or1200_if
+# Loading min_or1200.or1200_ctrl
+# Loading min_or1200.or1200_rf
+# Loading min_or1200.or1200_dpram
+# Loading min_or1200.or1200_operandmuxes
+# Loading min_or1200.or1200_alu
+# Loading min_or1200.or1200_fpu
+# Loading min_or1200.or1200_mult_mac
+# Loading min_or1200.or1200_gmultp2_32x32
+# Loading min_or1200.or1200_sprs
+# Loading min_or1200.or1200_lsu
+# Loading min_or1200.or1200_mem2reg
+# Loading min_or1200.or1200_reg2mem
+# Loading min_or1200.or1200_wbmux
+# Loading min_or1200.or1200_freeze
+# Loading min_or1200.or1200_except
+# Loading min_or1200.or1200_cfgr
+# Loading min_or1200.or1200_dmmu_top
+# Loading min_or1200.or1200_dmmu_tlb
+# Loading min_or1200.or1200_dc_top
+# Loading min_or1200.or1200_dc_fsm
+# Loading min_or1200.or1200_dc_ram
+# Loading min_or1200.or1200_spram_32_bw
+# Loading min_or1200.or1200_dc_tag
+# Loading min_or1200.or1200_qmem_top
+# Loading min_or1200.or1200_spram_2048x32
+# Loading min_or1200.or1200_sb
+# Loading min_or1200.or1200_du
+# Loading min_or1200.or1200_pic
+# Loading min_or1200.or1200_tt
+# Loading min_or1200.or1200_pm
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_cpu/or1200_ctrl/id_insn
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_cpu/or1200_ctrl/if_insn
+add wave -position insertpoint  \
+{sim:/or1200_tb/or1200_top_inst/or1200_cpu/or1200_rf/rf_b/mem[2]} \
+{sim:/or1200_tb/or1200_top_inst/or1200_cpu/or1200_rf/rf_b/mem[1]}
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+run -all
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+restart
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+# ** Warning: (vsim-PLI-3003) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): [TOFD] - System task or function '$srandom' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram File: /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+# ** Warning: (vsim-PLI-3003) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): [TOFD] - System task or function '$srandom' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram File: /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Error (suppressible): (vsim-12023) /home/jarvis/modelsim/proj_min_or1200/or1200_spram_2048x32.v(638): Cannot execute undefined system task/function '$srandom'
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/ce
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(44): [TFMPC] - Missing connection for port 'sig_tick'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr_reg_f'. 
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(22)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 22
+# Compile of or1200_tb.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/qmemicpu_dat_o
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(54): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/doq
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_tb.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_tb
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/doq_f
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+restart
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v was successful.
+run -all
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/mem
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 2 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v failed with 1 errors.
+# Compile of or1200_spram_2048x32.v was successful.
+run -all
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+# Compile of or1200_spram_2048x32.v was successful.
+restart
+# Loading min_or1200.or1200_spram_2048x32
+# ** Warning: (vsim-3017) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Too few port connections. Expected 56, found 51.
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3015) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'pm_cpustall_i'. The port definition is at: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v(89).
+#    Time: 0 ns  Iteration: 0  Instance: /or1200_tb/or1200_top_inst File: /home/jarvis/modelsim/proj_min_or1200/or1200_top.v
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'iwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_cti_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'dwb_bte_o'.
+# ** Warning: (vsim-3722) /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(55): [TFMPC] - Missing connection for port 'sig_tick'.
+# Warning in wave window restart: (vish-4014) No objects found matching '/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/doq_f'. 
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v(25)
+#    Time: 1200 ns  Iteration: 0  Instance: /or1200_tb
+# Break in Module or1200_tb at /home/jarvis/modelsim/proj_min_or1200/or1200_tb.v line 25
+add wave -position insertpoint  \
+sim:/or1200_tb/or1200_top_inst/or1200_qmem_top/or1200_qmem_ram/addr_reg
+# End time: 19:47:22 on Apr 13,2019, Elapsed time: 5:21:24
+# Errors: 10, Warnings: 346
